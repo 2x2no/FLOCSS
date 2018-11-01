@@ -1,0 +1,10 @@
+.c-card {
+    &__imageArea {}
+    &__image {}
+    &__iconArea {}
+    &__container {
+        & > * + * {
+            margin-top: 10px;
+        }
+    }
+}

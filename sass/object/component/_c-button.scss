@@ -1,0 +1,13 @@
+@mixin set_btn_color($background_color, $amount: 7) {
+    background-color: $background-color;
+    text-decoration: none;
+
+    @if $device == pc {
+        &:hover {
+            background-color: darken($background-color, $amount);
+            text-decoration: none;
+        }
+    }
+}
+
+.c-button {}

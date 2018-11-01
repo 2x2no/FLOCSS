@@ -1,0 +1,23 @@
+.m {
+    $names: t, r, b, l;
+
+    @each $name in $names {
+        @for $i from 0 through 5 {
+            &#{$name}#{$i * 5} {
+                margin-top: #{$i * 5}px;
+
+                @if $device == pc {
+                    &--pc {
+                        margin-top: #{$i * 5}px;
+                    }
+                }
+
+                @if $device == sp {
+                    &--sp {
+                        margin-top: #{$i * 5}px;
+                    }
+                }
+            }
+        }
+    }
+}
