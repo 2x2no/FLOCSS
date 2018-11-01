@@ -20,4 +20,5 @@ Component と Project の分類について
 # その他
 
 * ページレイアウトには CSS Grid Layout を使用
+  * Autoprefixer が IE11 にも対応したため
 * font-size 管理は rem を採用
