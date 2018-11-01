@@ -14,8 +14,8 @@ Component と Project の分類について
 
 ### Project
 
+* 固有の幅を持つ（BEMのBlockにあたる部分）
 * Componentを内包する
-* Block または Element で横幅を管理している
 
 # その他
 
