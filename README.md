@@ -15,4 +15,9 @@ Component と Project の分類について
 ### Project
 
 * Componentを内包する
-* Block 、または Element で横幅を管理している
+* Block または Element で横幅を管理している
+
+# その他
+
+* ページレイアウトには CSS Grid Layout を使用
+* font-size 管理は rem を採用
